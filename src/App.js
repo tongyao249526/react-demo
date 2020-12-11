@@ -3,6 +3,7 @@ import './App.css';
 import FirstPage from './views/firstPage'; //react合成事件
 import SyntheticEvent from './views/SyntheticEvent'; //react合成事件
 import FuZiCommunication from './views/FuZiCommunication'; //父子组件通讯
+import Fu from './views/Fu'; //父子组件生命周期执行顺序
 function App() {
   return (
       
@@ -24,6 +25,7 @@ function App() {
       <FirstPage />
       {/* <SyntheticEvent/> */}
       {/* <FuZiCommunication/> */} 
+      {/* <Fu/> */}
     </div>
   );
 }
